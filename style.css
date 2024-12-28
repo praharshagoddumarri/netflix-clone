@@ -1,0 +1,35 @@
+#header1{
+    padding :5px;
+    
+}
+#s1,#details{
+       padding: 5 px;
+}
+#intro{
+    background-color: yellow;
+    color: green;
+    text-decoration: underline;
+}
+img{
+    width: 50%;
+    margin: 30px;
+    border: 5px solid green;
+}
+input{
+    width: 100%;
+    padding: 5px;
+}
+button{
+    width:50%;
+    color:white;
+    background-color: green;
+    font-size: 12px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+*{
+    margin: 5px;
+}
