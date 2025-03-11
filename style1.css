@@ -1,0 +1,46 @@
+#section1,#section2,#section3{
+   
+    background-color:#D9DFC6;
+}
+#ol1{
+    border-radius: 12px;
+}
+body{
+    background-color:#EFF3EA;
+    margin: 50px 50px 50px 50px;
+}
+input{
+    background-color: white;
+}
+button{
+    background-color: green;
+    border-radius: 12px;
+
+}
+
+#section3{
+    background-color: #D9DFC6;
+    display: flex;
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+
+}
+.section4{
+    background-color:white;
+    border: 5px solid #D9DFC6;
+   
+   
+}
+
+#sectionr{
+    background-color: #D9DFC6;
+}
+img{
+    border-radius:50px;
+}
+#section1{
+    display: flex;
+    justify-content: space-around;
+}
+
+    

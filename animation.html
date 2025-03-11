@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .anime{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            animation: example 5s ease-in 0s  ;
+        }
+        .anime1{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            animation: example1 5s ease-in 0s  ;
+        }
+        .anime2{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            animation: example2 5s ease-in 0s  ;
+        }
+        .anime3{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            animation: example3 5s ease-in 0s  
+        }
+
+        @keyframes example {
+          0%{
+            left: 0rem;
+            top: 0rem;
+            background-color: red;
+          }
+          50%{
+            left: 50%;
+            top: 50%;
+            background-color:orange;
+            border-radius: 50%;
+          }
+         
+            
+        }
+        @keyframes example1 {
+          0%{
+            left: 100%;
+            top: 0rem;
+            background-color: yellow;
+          }
+          50%{
+            left: 50%;
+            top: 50%;
+            background-color:orange;
+            border-radius: 50%;
+          }
+         
+            
+        }
+        @keyframes example2 {
+          0%{
+            left: 0rem;
+            top: 100%;
+            background-color:green;
+          }
+          50%{
+            left: 50%;
+            top: 50%;
+            background-color:orange;
+            border-radius: 50%;
+          }
+         
+            
+        }
+        @keyframes example3 {
+          0%{
+            left: 100%;
+            top: 100%;
+            background-color:blue;
+          }
+          50%{
+            left: 50%;
+            top: 50%;
+            background-color:orange;
+            border-radius: 50%;
+          }
+         
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="anime"></div>
+    <div class="anime1"></div>
+    <div class="anime2"></div>
+    <div class="anime3"></div>
+</body>
+</html>
